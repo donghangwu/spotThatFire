@@ -4,5 +4,5 @@ https://donghangwu.github.io/spotThatFire.github.io/
 A web app will display the firing spot at google map and warning the user if he/she is near a firing(potential firing) spot.
 # Front End:
 Javascript+ Axios + GoogleMap-API + html + css
-# Back End Rest-api:
+# Back End REST-api:
 Nodejs + express + MongoDB
