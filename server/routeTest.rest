@@ -1,0 +1,24 @@
+GET http://localhost:3000/data
+
+###
+GET http://localhost:3000/data/5f264b0a256b5d52f86d90a8
+
+###
+POST http://localhost:3000/data
+Content-Type: application/json
+
+{
+    "lat":"34.380413","lng":"-117.314936","temp":"113","humidity":"66"
+}
+
+###
+DELETE  http://localhost:3000/data/5f264b0a256b5d52f86d90a8
+
+###
+PUT  http://localhost:3000/data/5f26502df7610b19d03467a6s
+Content-Type: application/json
+
+{
+    "lat":"34.140413","lng":"-117.514936","temp":"89","humidity":"64"
+
+}
